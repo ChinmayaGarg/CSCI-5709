@@ -137,3 +137,9 @@ body {
 .summary-total h3 {
   margin: 0.5rem 0;
 }
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
