@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './../App.css';
 
@@ -96,9 +96,11 @@ function RegistrationPage() {
     return !Object.values(errors).some(error => error !== '') && Object.values(form).every(field => field !== '');
   };
 
+  const initialRender = useRef(0);
+
   useEffect(() => {
-    validateForm();
-  }, [form, validateForm]);
+    initialRender.current < 1 ? (initialRender.current += 1) : validateForm();
+  }, [form, validateForm, initialRender]);
 
   return (
     <div className="container">
