@@ -1,0 +1,188 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+/* Container for the pages */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Login Page Styles */
+.login-page {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-page h2 {
+  margin-bottom: 20px;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login-page form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.login-page form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.login-page form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.login-page form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.login-page form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-page form button:hover {
+  background-color: #0056b3;
+}
+
+/* Profile List Page Styles */
+.profile-list-page {
+  text-align: center;
+}
+
+.profile-list-page h2 {
+  margin-bottom: 20px;
+}
+
+.profile-list-page input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* User Card Styles */
+.user-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.user-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+.user-card div {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+  width: 100%;
+}
+
+.user-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.user-card a:hover {
+  text-decoration: none;
+}
+
+/* Profile Detail Page Styles */
+.profile-detail-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.profile-detail-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-detail-page img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-detail-page p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.profile-detail-page p strong {
+  font-weight: bold;
+  color: #333;
+}
