@@ -5,8 +5,10 @@ Tutorial 3
 
 * *Date Created*: 27 June 2023
 * *Last Modification Date*: 28 June 2023
-* *Git URL*: <>
-* *Deployed URL*: <>
+* *Tutorial 4 Gitlab URL used for hosting*: <https://git.cs.dal.ca/cgarg/t4_garg_chinmaya_b00925398_5709>
+* *Gitlab URL of CSCI 5709*: <https://git.cs.dal.ca/cgarg/csci-5709>
+* *Gitlab URL of Tutorial 4 in CSCI 5709*: <https://git.cs.dal.ca/cgarg/csci-5709/-/tree/master/Tutorials/Tutorial%204?ref_type=heads>
+* *Deployed URL*: <https://master--t4-chinmaya-garg.netlify.app/>
 
 ## Authors
 
