@@ -1,10 +1,9 @@
 <!--- The following README.md sample file was adapted from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md by Gabriella Mosquera for academic use ---> 
 
-Tutorial 3
+Tutorial 4
 
-
-* *Date Created*: 27 June 2023
-* *Last Modification Date*: 28 June 2023
+* *Date Created*: 27 June 2024
+* *Last Modification Date*: 28 June 2024
 * *Tutorial 4 Gitlab URL used for hosting*: <https://git.cs.dal.ca/cgarg/t4_garg_chinmaya_b00925398_5709>
 * *Gitlab URL of CSCI 5709*: <https://git.cs.dal.ca/cgarg/csci-5709>
 * *Gitlab URL of Tutorial 4 in CSCI 5709*: <https://git.cs.dal.ca/cgarg/csci-5709/-/tree/master/Tutorials/Tutorial%204?ref_type=heads>
