@@ -13,7 +13,7 @@ const UserCard = ({ user }) => {
         Email: <a href={`mailto:${user.email}`}>{user.email}</a>
       </div>
       <div>
-        Address: <h5>{user.address}</h5>
+        Address: <p>{user.address}</p>
       </div>
     </div>
   );
