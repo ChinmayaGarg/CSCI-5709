@@ -3,12 +3,12 @@
 Tutorial 5
 
 * *Date Created*: 11 July 2024
-* *Last Modification Date*: 11 July 2024
-* *Tutorial 4 Gitlab URL used for hosting*: <https://git.cs.dal.ca/cgarg/t5_garg_chinmaya_b00925398_5709>
+* *Last Modification Date*: 12 July 2024
+* *Tutorial 5 Gitlab URL used for hosting*: <https://git.cs.dal.ca/cgarg/t5_garg_chinmaya_b00925398_5709>
 * *Gitlab URL of CSCI 5709*: <https://git.cs.dal.ca/cgarg/csci-5709>
-* *Gitlab URL of Tutorial 5 in CSCI 5709*: <https://git.cs.dal.ca/cgarg/csci-5709/-/tree/master/Tutorials/Tutorial%204?ref_type=heads>
+* *Gitlab URL of Tutorial 5 in CSCI 5709*: <https://git.cs.dal.ca/cgarg/csci-5709/-/tree/master/Tutorials/Tutorial%205?ref_type=heads>
 * *Deployed URL*: <https://t5-garg-chinmaya-b00925398-5709.onrender.com>
-* *URL to used for accessing APIS by suffixing it with path*: <https://t5-garg-chinmaya-b00925398-5709.onrender.com/api>
+* *URL to be used for accessing APIS by suffixing it with path*: <https://t5-garg-chinmaya-b00925398-5709.onrender.com/api>
 
 ## Endpoints With Body
 
@@ -29,7 +29,7 @@ Example of Body Sent:
 "firstName": "XYZ"
 }
 
-* API for GET call for a specific user: <https://t5-garg-chinmaya-b00925398-5709.onrender.com/api/user/1>
+* API for GET call for a specific user i.e. 1: <https://t5-garg-chinmaya-b00925398-5709.onrender.com/api/user/1>
 
 
 ## Authors
